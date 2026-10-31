@@ -1,10 +1,8 @@
-# sherlock — agent-detector benchmark
+# Agent-detector benchmark
 
-**sherlock** is a live, self-hosted, **offline agent-detector benchmark**. It scores every visit for automated-agent
-signals in-process — instant fingerprint, behavioral input, IP / TLS / header, and agent-trust signals — with no
-third-party API and no outbound call at request time.
+A live benchmark for automated-agent detection. Every visit to the demo form is scored as it happens, and the
+homepage compares agent detectors on documented capabilities and a recorded head-to-head.
 
 - **Live benchmark:** https://agent-detect-bench.onrender.com/
+- **Leaderboard:** https://agent-detect-bench.onrender.com/#leaderboard
 - **Demo form:** https://agent-detect-bench.onrender.com/demo
-
-The homepage shows a live detection tally and a head-to-head detector leaderboard.
